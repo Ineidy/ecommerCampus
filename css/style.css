@@ -72,20 +72,20 @@
     margin: auto;
 }
 .main {
-    /* background-color: red; */
+    background-color: red;
     padding: var(--space-layout-padding-lr);
     margin-top: 15px;
 }
 .main__nav {
-    /* background-color: violet; */
+    background-color: violet;
+
     padding: 10px;
 }
 .nav__ul{
-    /* background-color: darkgray; */
-    height: 70px;
+    background-color: darkgray;
+    height: 55px;
     display: flex;
-    flex-direction: row;
-    padding-bottom: 5px;
+    flex-direction:row;
     align-items: center;
     gap: 10px;
     overflow-x: scroll;
@@ -104,10 +104,10 @@
     gap: 5px;
     padding: 5px;
     border-radius: 8px ;
-    background: var(--color-1);
-    color: var(--color-5);
+    background: var(--color-5);
+    color: var(--color-1);
     border: 1px solid var(--color-3);
 }
-.nav__ul li a :hover{
-
+.nav__ul li a:hover{
+    filter: invert(1);
 }
