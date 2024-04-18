@@ -72,17 +72,17 @@
     margin: auto;
 }
 .main {
-    background-color: red;
+    /* background-color: red; */
     padding: var(--space-layout-padding-lr);
     margin-top: 15px;
 }
 .main__nav {
-    background-color: violet;
+    /* background-color: violet; */
 
     padding: 10px;
 }
 .nav__ul{
-    background-color: darkgray;
+    /* background-color: darkgray; */
     height: 55px;
     display: flex;
     flex-direction:row;
@@ -114,7 +114,7 @@
 
 .footer {
     bottom: 10px;
-    background-color: aqua;
+    /* background-color: aqua; */
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -144,43 +144,26 @@
 .main__article{
     height: 70vh;
     margin-top: 15px;
-    background-color: aqua;
+    /* background-color: aqua; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     overflow-y: scroll;
-
-
 }
 .main__article section{
-    background-color: blue;
-    width: 48%;
-    height: 290px;
-    margin-bottom: 4%;
+    /* background-color: blue; */
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-}
-
-.main__article section:nth-child(4n+1),
-.main__article section:nth-child(4n+4){
-    background-color: rgb(238, 225, 112);
-    height: 260px;
-
-}
-
-/* .main__article section:nth-child(4n-2), */
-
-.main__article section:nth-child(4n-1){
-    background-color: violet;
-    /* position: relative; */
-    top: -30px;
+    width: 48%;
+    /* height: 320px; */
+    margin-bottom: 4%;
 }
 
 .section__front_page{
     position: relative;
-    margin-top: 5px;
+    margin-top: 2px;
     margin-bottom: 10px;
     border-radius: 14px;
     width: var(--layout-imagen-width);
@@ -195,6 +178,7 @@
     height: var(--layout-imagen-height);
     object-fit: cover;
 }
+
 .section__front_page img:last-child{
     
     top: 10px;
@@ -203,6 +187,20 @@
     padding: 5px;
     border-radius: 100%;  
 }
+.main__article section:nth-child(4n-1){
+    /* background-color: violet; */
+    /* position: relative; */
+    margin-top: -54px;
+}
+.main__article section:nth-child(4n+1),
+.main__article section:nth-child(4n+4){
+    /* background-color: rgb(238, 225, 112); */
+    height: 380px;
+
+}
+
+/* .main__article section:nth-child(4n-2), */
+
 
 .main__article section h5{
     font-family: "EncodeSans-SemiBold";
@@ -233,18 +231,6 @@
 .section__price span{
     font-family: "EncodeSans-SemiBold";
 }
-
-.section__chicanegro{
-    
-}
-
-
-
-
-
-
-
-
 
 
 .footer__ul li a {
