@@ -5,3 +5,40 @@
     font-family: "EncodeSans-Regular";
     box-sizing: border-box;
 }
+.main{
+    /* background-color: darkseagreen; */
+    padding: var(--space-layout-padding-lr);
+    margin-top: var(--space-layout-padding-t);
+
+}
+.main__section {
+    width: 100%;
+    /* background-color: thistle; */
+}
+.article__producto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    
+}
+.producto__imagen {
+    /* background-color: salmon; */
+    width: var(--layout-imagen-width-detail);
+    height: var(--layout-imagen-height-detail);
+    border-radius: 20px;
+    overflow: hidden;
+}
+.producto__imagen img{
+    width: var(--layout-imagen-width-detail);
+    height: var(--layout-imagen-height-detail);
+    object-fit: cover;
+}
+.producto__menu {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 15px 0 15px;
+}
+
