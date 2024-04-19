@@ -116,9 +116,10 @@
     bottom: 10px;
     /* background-color: aqua; */
     position: fixed;
-    bottom: 0;
+    bottom: 10px;
     width: 100%;
     padding: var(--space-layout-padding-lr);
+
 }
 .footer__ul {
     background-color: #292526;
@@ -128,6 +129,7 @@
     height: 50px;
     align-items: center;
     border-radius: 30px;
+    box-shadow: 0px -2px 55px 10px #ffffff ;
 }
 .footer__ul li{
     list-style: none;
@@ -144,6 +146,7 @@
 .main__article{
     height: 70vh;
     margin-top: 15px;
+    padding-bottom: 12vh;
     /* background-color: aqua; */
     display: flex;
     flex-wrap: wrap;
@@ -179,10 +182,12 @@
     object-fit: cover;
 }
 
-.section__front_page img:last-child{
+.section__front_page > img:last-child{
     
     top: 10px;
-    right: 10px;
+    height: 25px;
+    right: 25px;
+    width: 25px;
     background-color: var(--color-1);
     padding: 5px;
     border-radius: 100%;  
