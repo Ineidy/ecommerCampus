@@ -17,9 +17,46 @@
     flex-direction: column;
 }
 .sec1, .sec2, .sec3{
+    margin-top: 20px;
+    padding: var(--space-layout-padding-lr);
     display: flex;
-}
+    flex-direction: row;
+    justify-content: space-between;
 
+}
+.mm{
+    margin-bottom: 30px;
+    width: 70px;
+    height: 70px;
+    border-radius: 14px;
+    overflow: hidden;
+    
+}
+.mm img{
+    width: 100%;
+}
+.sumres{
+    display: flex;
+    flex-direction: column;
+    
+}
+.seleccion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-4);
+    color: var(--color-5);
+    padding-left: 3vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-right: 3vw;
+    gap: 2vw;
+    border-radius:3vw;
+}
+.shipping{
+    display: flex;
+    
+}
 
 
 
