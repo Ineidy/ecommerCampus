@@ -15,6 +15,7 @@
     width: 100%;
     /* background-color: thistle; */
 }
+
 .article__producto {
     display: flex;
     flex-direction: row;
@@ -137,5 +138,13 @@
 }
 .footer__ul li a img{
     width: 25px;
+}
+.footer__ul li a span{
+
+    font-family: "EncodeSans-Medium";
+}
+.footer__ul li a del{
+    color: var(--color-3);
+    font-family: "EncodeSans-Medium";
 }
 

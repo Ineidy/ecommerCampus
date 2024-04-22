@@ -9,19 +9,23 @@
 .check{
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
+    padding-top: var(--space-layout-padding-t);
     align-items: center;
 }
 .añadir{
     display: flex;
     flex-direction: column;
 }
-.sec1, .sec2, .sec3{
-    margin-top: 20px;
+.sec{
+    margin-top: 10px;
     padding: var(--space-layout-padding-lr);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding:0 0;
+    border-bottom-width: 1px;
+    border-bottom-style: solid ;
+    border-bottom-color: var(--color-3) ;
 
 }
 .mm{
@@ -30,7 +34,7 @@
     height: 70px;
     border-radius: 14px;
     overflow: hidden;
-    
+
 }
 .mm img{
     width: 100%;
@@ -38,7 +42,7 @@
 .sumres{
     display: flex;
     flex-direction: column;
-    
+
 }
 .seleccion{
     display: flex;
@@ -54,9 +58,85 @@
     border-radius:3vw;
 }
 .shipping{
+    margin-bottom: 3vw;
+
+}
+.shipping, .visa, .tot, .sub{
+    padding: var(--space-layout-padding-lr);
+}
+.visa{
+    align-items: baseline;
+    background-color: #cfcfcf;
+    padding-bottom: 3vw;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid black ;
+    border-radius: 3vw;
+    padding-top: 3vw;
     display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+
+
+}
+.tot{
+    margin-top: 4vw;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5vw;
+}
+.itm{
+    margin-bottom: 3vw;
+    display: flex;
+    justify-content: space-between;
+}
+.tot9item{
+    display: flex;
+    justify-content: space-between;
+}
+.sub{
+    display: flex;
+    justify-content: space-between;
+}
+.viss{
+    margin-right: 4vw;
+}
+.semibold{
+    font-family: "EncodeSans-SemiBold";
+
+}
+.regular{
+    font-family: "EncodeSans-Regular";
+    color: var(--color-3);
+    font-size: 3.2vw;
+    padding-top: 1vw;
+    padding-bottom: 2.8vw;
+}
+.sumres{
+    display: flex;
+    flex-direction: column;
     
 }
+.trespuntos{
+    padding-left: 20vw;
+    padding-bottom: 6vw;
+}
+
+.todo{
+    padding: var(--space-layout-padding-t);
+}
+.regu{
+    font-family: "EncodeSans-Regular";
+}
+.main__section{
+    background-color: aquamarine;
+    height: 365px;
+    overflow-y: scroll;
+}
+
+
 
 
 
