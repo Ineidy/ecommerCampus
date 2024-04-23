@@ -15,6 +15,7 @@
 .añadir{
     display: flex;
     flex-direction: column;
+    padding: var(--space-layout-padding-lr);
 }
 .sec{
     margin-top: 10px;
@@ -65,10 +66,8 @@
     padding: var(--space-layout-padding-lr);
 }
 .visa{
-    align-items: baseline;
-    background-color: #cfcfcf;
+    background-color: var(--color-3);
     padding-bottom: 3vw;
-    align-items: center;
     padding-left: 15px;
     padding-right: 15px;
     border: 1px solid black ;
@@ -76,7 +75,7 @@
     padding-top: 3vw;
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
+
 
 
 
@@ -91,6 +90,7 @@
     margin-bottom: 3vw;
     display: flex;
     justify-content: space-between;
+    
 }
 .tot9item{
     display: flex;
@@ -131,7 +131,7 @@
     font-family: "EncodeSans-Regular";
 }
 .main__section{
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     height: 365px;
     overflow-y: scroll;
 }
