@@ -95,6 +95,7 @@
     list-style: none;
 }
 .nav__ul li a{
+    transition: all 1s linear;
     width: 105px;
     height: 35px;
     font-family: "EncodeSans-Medium";
