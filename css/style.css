@@ -74,7 +74,7 @@
 .main {
     /* background-color: red; */
     padding: var(--space-layout-padding-lr);
-    margin-top: 15px;
+
 }
 .main__nav {
     /* background-color: violet; */
@@ -145,7 +145,6 @@
 
 .main__article{
     height: 70vh;
-    margin-top: 15px;
     padding-bottom: 12vh;
     /* background-color: aqua; */
     display: flex;

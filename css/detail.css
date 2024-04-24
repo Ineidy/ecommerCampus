@@ -5,7 +5,7 @@
     font-family: "EncodeSans-Regular";
     box-sizing: border-box;
 }
-.main{
+main{
     /* background-color: darkseagreen; */
     padding: var(--space-layout-padding-lr);
     margin-top: var(--space-layout-padding-t);
