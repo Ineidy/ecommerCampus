@@ -20,12 +20,16 @@
     flex-direction: column;
     padding: var(--space-layout-padding-lr);
 }
-.sec1, .sec2, .sec3{
-    margin-top: 20px;
+.sec{
+    margin-top: 10px;
     padding: var(--space-layout-padding-lr);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding:0 0;
+    border-bottom-width: 1px;
+    border-bottom-style: solid ;
+    border-bottom-color: var(--color-3) ;
 
 }
 .mm{
@@ -34,7 +38,7 @@
     height: 70px;
     border-radius: 14px;
     overflow: hidden;
-    
+
 }
 .mm img{
     width: 100%;
@@ -42,7 +46,7 @@
 .sumres{
     display: flex;
     flex-direction: column;
-    
+
 }
 .seleccion{
     display: flex;
@@ -65,10 +69,8 @@
     padding: var(--space-layout-padding-lr);
 }
 .visa{
-    align-items: baseline;
-    background-color: #cfcfcf;
+    background-color: var(--color-3);
     padding-bottom: 3vw;
-    align-items: center;
     padding-left: 15px;
     padding-right: 15px;
     border: 1px solid black ;
@@ -76,7 +78,7 @@
     padding-top: 3vw;
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
+
 
 
 
@@ -91,6 +93,7 @@
     margin-bottom: 3vw;
     display: flex;
     justify-content: space-between;
+    
 }
 .tot9item{
     display: flex;
@@ -116,6 +119,7 @@
 }
 .sumres{
     display: flex;
+    flex-direction: column;
     
 }
 .trespuntos{
