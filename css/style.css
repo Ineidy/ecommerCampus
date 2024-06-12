@@ -96,7 +96,7 @@
 }
 .nav__ul li a{
     transition: all 1s linear;
-    width: 105px;
+    width: 125px;
     height: 35px;
     font-family: "EncodeSans-Medium";
     text-decoration: none;
@@ -109,6 +109,12 @@
     color: var(--color-1);
     border: 1px solid var(--color-3);
 }
+.nav__ul li a span{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 .nav__ul li a:hover{
     filter: invert(1);
 }
@@ -123,7 +129,7 @@
 
 }
 .footer__ul {
-    background-color: #292526;
+    background-color: #e2c2ca;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -179,7 +185,7 @@
 .section__front_page img:first-child{
     width: var(--layout-imagen-width);
     height: var(--layout-imagen-height);
-    object-fit: cover;
+    object-fit: scale-down;
 }
 
 .section__front_page > img:last-child{
